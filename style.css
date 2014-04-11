@@ -1,0 +1,171 @@
+body {
+background-color:#000;
+margin:0px;
+padding:0px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#9d5982;
+}
+p{
+margin:0px;
+padding:0 0 5px 0;
+line-height:17px;
+text-align:justify;
+}
+p.left{
+float:left;
+width:315px;
+}
+h1{
+padding:2px 0 10px 0;
+margin:0px;
+font-size:14px;
+color:#8cedef;
+}
+#main_container{
+width:850px;
+height:auto;
+margin:auto;
+background-color:#190210;
+}
+#center_content{
+width:850px;
+margin:auto;
+ 
+}
+#header{
+width:850px;
+height:341px;
+margin:auto;
+background:url(../Van Rooyen/11111/vanrooyen/images/header_bg.jpg) no-repeat center;
+}
+#logo{
+padding:30px 0 0 25px;
+}
+.prom_date_box{
+width:300px;
+padding:10px 0 0 30px;
+}
+.prom_title{
+width:170px;
+height:61px;
+line-height:55px;
+text-align:center;
+font-size:16px;
+font-weight:bold;
+color:#bbe3e1;
+background:url(../Van Rooyen/11111/vanrooyen/images/date_bg.gif) no-repeat center;
+}
+/*----------------------menu-------------------------*/
+#menu{
+width:821px;
+height:44px;
+padding:0px;
+margin:auto;
+text-align:center;
+background:url(../Van Rooyen/11111/vanrooyen/images/menu_bg.gif) no-repeat center;
+}
+#menu ul{
+list-style:none;padding:0 0 0 90px;margin:0px;display:block; font-weight:bold;
+}
+#menu ul li{
+list-style:none;display:inline;float:left;width:auto;height:44px;padding:0px;font-size:13px; line-height:44px;
+}
+#menu ul li a{
+height:44px; width:87px;float:left;text-decoration:none;padding:0px; margin:0px;color:#d99cc1;
+}
+#menu ul li a:hover{
+height:44px;width:87px;text-decoration:none;color: #d99cc1; background:url(../Van Rooyen/11111/vanrooyen/images/button_bg.gif) no-repeat center;
+}
+#menu ul li a.current{
+height:44px;width:87px;float:left;text-decoration:none;padding:0px;color: #d99cc1;background:url(../Van Rooyen/11111/vanrooyen/images/button_bg.gif) no-repeat center;
+}
+
+a.more {
+width:104px;
+height:24px;
+display:block;
+text-decoration:none;
+float:right;
+margin:10px 0 15px 0;
+text-align:center;
+line-height:22px;
+color:#e578bb;
+background:url(../Van Rooyen/11111/vanrooyen/images/read_more_bg.gif) no-repeat center;
+}
+a.gallery_link {
+width:287px;
+height:74px;
+display:block;
+text-decoration:none;
+font-size:24px;
+margin:20px 0 0 5px;
+text-align:center;
+line-height:70px;
+color:#ffff65;
+background:url(../Van Rooyen/11111/vanrooyen/images/photo_gallery_link.gif) no-repeat center;
+}
+/*---------------------main_content------------------*/
+.left_content{
+width:435px;
+height:auto;
+float:left;
+padding:10px 0 15px 25px;
+}
+.title{
+font-size:15px;
+color:#ffa268;
+clear:both;
+background:url(../Van Rooyen/11111/vanrooyen/images/star_bullet.gif) no-repeat left;
+padding:0 0 0 23px;
+margin:5px 0 5px 0;
+}
+.right_content{
+width:340px;
+height:auto;
+float:left;
+padding:10px 0 0 20px;
+}
+.right_photos_content{
+padding:15px 0 0 25px;
+}
+.news_tab{
+float:left;
+padding:5px 0 5px 0;
+margin:0px;
+}
+img.photo{
+float:left;
+padding:2px;
+border:1px #ce3291 solid;
+margin:0 10px 0 0;
+}
+.clear{
+clear:both;
+}
+/*-----------------------------footer------------------*/
+#footer{
+width:850px;
+height:60px;
+margin:auto;
+color:#508aa1;
+background-color:#350723;
+border-top:1px #ce3291 solid;
+}
+.footer_links{
+float:left;
+padding:10px;
+}
+.footer_links a{
+text-decoration:none;
+padding:0 8px 0 8px;
+color:#d99cc1;
+}
+.footer_links a:hover{
+text-decoration:underline;
+}
+.copyright{
+float:right;
+padding-right:15px;
+padding-top:7px;
+}
